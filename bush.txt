@@ -1,0 +1,13 @@
+python爬虫
+
+pip install scrapy
+scrapy startproject myproject
+
+scrapy genspider togoogle https://news.google.com/home?hl=en-US&gl=US&ceid=US:en
+
+scrapy genspider example example.com
+
+scrapy crawl togoogle -s ROBOTSTXT_OBEY=False -o news.json
+scrapy crawl quotes -o quotes.json
+
+EctEBd KKjvXb
